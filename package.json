@@ -23,6 +23,6 @@
   "author": "Burcin Guzel",
   "license": "None",
   "dependencies": {
-    "mongo" : "~2.6.12"
+    "mongodb" : "~2.0"
   }
 }
