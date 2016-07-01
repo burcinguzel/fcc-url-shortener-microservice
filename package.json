@@ -1,0 +1,28 @@
+{
+  "name": "UrlShortenerMicroservice",
+  "version": "1.0.0",
+  "description": "Url Shortener Microservice",
+  "main": "shortener.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burcinguzel/fcc-url-shortener-microservice"
+  },
+  "homepage": "https://github.com/burcinguzel",
+  "bugs": "https://github.com/burcinguzel/fcc-url-shortener-microservice/issues",
+  "keywords": [
+    "full stack",
+    "Node"
+  ],
+  "scripts": {
+  "start": "node shortener.js"
+  },
+    "engines" : { 
+    "npm" : "~3.5.3" ,
+    "node" : "~5.11.1"
+  },
+  "author": "Burcin Guzel",
+  "license": "None",
+  "dependencies": {
+    "mongodb":"~2.6.11"
+  }
+}
