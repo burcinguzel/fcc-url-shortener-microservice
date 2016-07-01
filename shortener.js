@@ -1,7 +1,7 @@
  	var http = require('http');
  	var mongo = require('mongodb');
  	var myDBClient = mongo.MongoClient;
- 	var myDBUrl = 'mongodb://localhost:27017/default';
+ 	var myDBUrl = process.env.MONGOLAB_URI;
 
 
  	var server = http.createServer(function(request, response) {
